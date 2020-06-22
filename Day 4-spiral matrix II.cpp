@@ -9,22 +9,22 @@ int main()
         while(c<=n*n){
             for(int i=top;i<=right;i++ ){
                 a[top][i]=c;
-				c++;
+		c++;
             }
             top++;
             for(int i=top;i<=bottom;i++){
                 a[i][right]=c;
-				c++;
+		c++;
             }
             right--;
             for(int i=right;i>=left;i--){
                 a[bottom][i]=c;
-				c++;
+	        c++;
             }
             bottom--;
             for(int i=bottom;i>=top;i--){
                 a[i][left]=c;
-				c++;
+		c++;
             }
             left++;
         }
