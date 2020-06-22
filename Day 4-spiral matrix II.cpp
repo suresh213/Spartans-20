@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int n,i,j;
+	    int n,i,j;
 	    cin>>n;
 	    int a[n][n];
         int top=0,left=0,right=n-1,bottom=n-1,c=1;
