@@ -16,7 +16,7 @@ void diagonal(int A[3][3])
   
             startrow++; 
         } 
-        cout << "\n"; 
+        cout << endl; 
     } 
   
     for (int row = 1; row < N; row++) { 
@@ -29,7 +29,7 @@ void diagonal(int A[3][3])
   
             startrow++; 
         } 
-        cout << "\n"; 
+        cout << endl; 
     } 
 } 
   
